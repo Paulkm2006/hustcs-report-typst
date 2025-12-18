@@ -52,7 +52,7 @@
 
 // #pagebreak()
 
-#show: appendix_section
+#show: appendix_section // 插入附录
 
 = test
 Here is the appendix content.

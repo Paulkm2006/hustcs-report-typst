@@ -394,17 +394,11 @@
 }
 
 #let appendix_section(body) = {
-  // Appendix with no header/footer.
   
   set heading(numbering: "A")
   counter(heading).update(0)
   show heading.where(level: 1): it => {
     align(center, text(font: _font-cjk-sans, size: zihao.zm2, weight: "bold")[附录#counter(heading).display() #it.body])
   }
-  // set page(
-  //   header: none,
-  //   footer: none,
-  //   margin: (top: 1.2in),
-  // )
   body
 }
