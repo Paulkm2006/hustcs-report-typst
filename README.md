@@ -1,5 +1,7 @@
 # modern-hust-cs-report
 
+This is an unofficial template for curriculum and lab reports at School of Computer Science, Huazhong University of Science and Technology.
+
 本模板为华中科技大学 计算机科学与技术学院 本科课程报告/实验报告 的模板，基于新生实践课老师发放的LaTeX模板修改而来。
 
 ## 使用方式
