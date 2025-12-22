@@ -81,7 +81,6 @@
         text(font: _font-cjk, size: 40pt, spacing: 0.1em)[*实 验 报 告*]
       } else if type == "course" {
         text(font: _font-cjk, size: 40pt, spacing: 0.1em)[*课 程 设 计 报 告*]
-        v(8em)
         stack(
           dir: ltr,
           spacing: 0.5em,
@@ -316,9 +315,9 @@
 }
 
 // from: https://github.com/DzmingLi/hust-cse-report/blob/main/template.typ , thanks!
-#let fig(image-path, caption: "") = {
+#let fig(img, caption: "") = {
   figure(
-    image(image-path, width: width),
+    img,
     caption: text(font: ("Times New Roman", "SimHei"), size: 12pt)[#caption],
     supplement: [图],
     numbering: (..nums) => {
