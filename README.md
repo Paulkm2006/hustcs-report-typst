@@ -29,7 +29,7 @@ typst init @preview/modern-hust-cs-report my-report
 在已有 Typst 项目中导入该模板并填写信息：
 
 ```typst
-#import "@preview/modern-hust-cs-report:0.1.0": *
+#import "@preview/modern-hust-cs-report:0.1.1": *
 
 
 #show: experimental-report.with(

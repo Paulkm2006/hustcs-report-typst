@@ -1,4 +1,4 @@
-#import "../template.typ": *
+#import "@preview/modern-hust-cs-report:0.1.1": *
 
 
 #show: experimental-report.with(
