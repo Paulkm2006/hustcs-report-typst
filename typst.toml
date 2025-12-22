@@ -1,6 +1,6 @@
 [package]
 name = "modern-hust-cs-report"
-version = "0.1.0"
+version = "0.1.1"
 entrypoint = "template.typ"
 authors = ["Paul Liu <https://github.com/Paulkm2006>"]
 license = "GPL-3.0-or-later"
